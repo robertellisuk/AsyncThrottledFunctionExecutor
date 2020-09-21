@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Robert Ellis</Authors>
+    <Description>Simple abstract class for throttled execution of an async function, with throttling implemented by use of TokenBuckets</Description>
+    <PackageProjectUrl>https://github.com/robertellisuk/AsyncThrottledFunctionExecutor</PackageProjectUrl>
+    <PackageTags>Throttle Throttled Async Function Execute Executor Delegate Abstract Generic</PackageTags>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Banda.AsyncTokenBucket" Version="1.0.0" />
+    <PackageReference Include="ImmutableObjectGraph.Generation" Version="1.2.19-beta" />
+  </ItemGroup>
+
+</Project>

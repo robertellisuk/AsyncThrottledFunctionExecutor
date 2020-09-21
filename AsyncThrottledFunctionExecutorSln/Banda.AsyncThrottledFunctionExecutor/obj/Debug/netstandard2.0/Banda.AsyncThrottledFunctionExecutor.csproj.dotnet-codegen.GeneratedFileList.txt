@@ -1,0 +1,4 @@
+obj\Debug\netstandard2.0\CustomerThrottle.C6Vm+k+m.generated.cs
+obj\Debug\netstandard2.0\CustomerThrottleContext.62MvKaIt.generated.cs
+obj\Debug\netstandard2.0\ThrottledFunctionExecutor.s1T72dYP.generated.cs
+obj\Debug\netstandard2.0\TokenBucketFactory.i+iJt7QZ.generated.cs

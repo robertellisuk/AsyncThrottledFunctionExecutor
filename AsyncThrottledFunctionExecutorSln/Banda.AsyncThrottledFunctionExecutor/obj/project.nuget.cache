@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vr2bVlZPyD6zsvt74YcWIHEWyustE9M1N3gIa8gswMNQDmt8/OfHfY136lZY4EC8moaD2mSPQ8C6Ts1QCb6Fcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor\\Banda.AsyncThrottledFunctionExecutor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\roberte\\.nuget\\packages\\banda.asynctokenbucket\\1.0.0\\banda.asynctokenbucket.1.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\codegeneration.roslyn.attributes\\0.4.88\\codegeneration.roslyn.attributes.0.4.88.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\codegeneration.roslyn.buildtime\\0.4.88\\codegeneration.roslyn.buildtime.0.4.88.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\immutableobjectgraph\\1.2.19-beta\\immutableobjectgraph.1.2.19-beta.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\immutableobjectgraph.generation\\1.2.19-beta\\immutableobjectgraph.generation.1.2.19-beta.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex\\5.0.0\\nito.asyncex.5.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex.context\\5.0.0\\nito.asyncex.context.5.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex.coordination\\5.0.0\\nito.asyncex.coordination.5.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.0.0\\nito.asyncex.interop.waithandles.5.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex.oop\\5.0.0\\nito.asyncex.oop.5.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex.tasks\\5.0.0\\nito.asyncex.tasks.5.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.cancellation\\1.0.5\\nito.cancellation.1.0.5.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.collections.deque\\1.0.4\\nito.collections.deque.1.0.4.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\nito.disposables\\2.0.0\\nito.disposables.2.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\validation\\2.4.18\\validation.2.4.18.nupkg.sha512"
+  ],
+  "logs": []
+}
