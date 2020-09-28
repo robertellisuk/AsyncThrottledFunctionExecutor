@@ -8,7 +8,7 @@ namespace Banda.AsyncThrottledFunctionExecutor
     {
         private static readonly TimeSpan oneSecond = TimeSpan.FromSeconds(1);
 
-        public static async Task<ITokenBucket> GetTokenBucket(CustomerThrottle customerThrottle)
+        public static async Task<ITokenBucket> GetTokenBucketAsync(CustomerThrottle customerThrottle)
         {
             return await TokenBuckets.BucketWithFixedIntervalRefillStrategy(
                 capacity: (long)customerThrottle.MaximumRequestsPerSecond,

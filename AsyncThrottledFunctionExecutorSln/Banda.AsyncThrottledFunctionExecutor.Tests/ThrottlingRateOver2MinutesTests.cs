@@ -10,7 +10,9 @@ namespace Banda.AsyncThrottledFunctionExecutor.Tests
     public class ThrottlingRateOver2MinutesTests
     {
         [TestMethod]
+#pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
         public async Task ThrottlingRateOver2MinutesTest1()
+#pragma warning restore CS1998 // Async method lacks 'await' operators and will run synchronously
         {
             Func<TestRequest, Task<TestResponse>> executingFunc = async (req) =>
             {
@@ -39,24 +41,24 @@ namespace Banda.AsyncThrottledFunctionExecutor.Tests
 
                 var t1 = new Task(async () =>
                 {
-                    await SimulateRequests(customerThrottle1, tfe, testCounter1).ConfigureAwait(false);
+                    await SimulateRequestsAsync(customerThrottle1, tfe, testCounter1).ConfigureAwait(false);
                 });
 
                 var t2 = new Task(async () =>
                 {
-                    await SimulateRequests(customerThrottle2, tfe, testCounter2).ConfigureAwait(false);
+                    await SimulateRequestsAsync(customerThrottle2, tfe, testCounter2).ConfigureAwait(false);
                     return;
                 });
 
                 var t3 = new Task(async () =>
                 {
-                    await SimulateRequests(customerThrottle3, tfe, testCounter3).ConfigureAwait(false);
+                    await SimulateRequestsAsync(customerThrottle3, tfe, testCounter3).ConfigureAwait(false);
                     return;
                 });
 
                 var t4 = new Task(async () =>
                 {
-                    await SimulateRequests(customerThrottle4, tfe, testCounter4).ConfigureAwait(false);
+                    await SimulateRequestsAsync(customerThrottle4, tfe, testCounter4).ConfigureAwait(false);
                     return;
                 });
 
@@ -71,41 +73,46 @@ namespace Banda.AsyncThrottledFunctionExecutor.Tests
                 while (true)
                 {
                     Thread.Sleep(1);
-                    if (sw.ElapsedMilliseconds > 59999)
+                    if (sw.Elapsed.TotalMilliseconds >= 59950)
                         break;
                 }
+
+                testCounter1.stopCount = true;
+                testCounter2.stopCount = true;
+                testCounter3.stopCount = true;
+                testCounter4.stopCount = true;
+
+                sw.Stop();
 
                 tokenSource.Cancel();
 
                 Task.WaitAll(t1, t2, t3, t4);
 
-                sw.Stop();
-
                 // customer 1: 1 request per second
-                Assert.AreEqual(1, testCounter1.count / (sw.Elapsed.TotalSeconds +1 ), 0.05);
+                Assert.AreEqual(1, testCounter1.count / sw.Elapsed.TotalSeconds, 0.05);
 
                 // customer 2: 2 requests per second
-                Assert.AreEqual(2, testCounter2.count / (sw.Elapsed.TotalSeconds + 1), 0.05);
+                Assert.AreEqual(2, testCounter2.count / sw.Elapsed.TotalSeconds, 0.10);
 
                 // customer 3: 4 requests per second
-                Assert.AreEqual(4, testCounter3.count / (sw.Elapsed.TotalSeconds + 1), 0.05);
+                Assert.AreEqual(4, testCounter3.count / sw.Elapsed.TotalSeconds, 0.4);
 
                 // customer 4: 120 requests per second
-                Assert.AreEqual(120, testCounter4.count / (sw.Elapsed.TotalSeconds + 1), 0.05);
+                Assert.AreEqual(120, testCounter4.count / sw.Elapsed.TotalSeconds, 12);
             }
         }
 
-        private async Task SimulateRequests(CustomerThrottle ct, ThrottledFunctionExecutor<TestRequest, TestResponse> tfe, TestCounter counter)
+        private async Task SimulateRequestsAsync(CustomerThrottle ct, ThrottledFunctionExecutor<TestRequest, TestResponse> tfe, TestCounter counter)
         {
             try
             {
                 while (true)
                 {
-                    var response = await tfe.ExecuteThrottled(ct, new TestRequest()).ConfigureAwait(false);
+                    var response = await tfe.ExecuteThrottledAsync(ct, new TestRequest()).ConfigureAwait(false);
                     counter.Add();
                 }
             }
-            catch (TaskCanceledException)
+            catch (OperationCanceledException)
             { 
             }
             catch (Exception)

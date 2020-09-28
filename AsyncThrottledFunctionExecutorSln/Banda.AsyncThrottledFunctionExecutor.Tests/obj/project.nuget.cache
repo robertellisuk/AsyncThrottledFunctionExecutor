@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AY5IQkHsMA2j9I7CmCWpoWhD8ulfp1VDBKZ3JZr7x4dwiQ2GEA8arMUfewRd8029+GUAMQfd4CEcrY4KIb9RWg==",
+  "dgSpecHash": "HhgsJEC5klbkSihgdOZbaeQHxNBdlLucj60Pms9DbxFHbXT/BtHT7wwpVLlFvcD0p58LsX6rOAVP9DlxjXCh0g==",
   "success": true,
   "projectFilePath": "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor.Tests\\Banda.AsyncThrottledFunctionExecutor.Tests.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\roberte\\.nuget\\packages\\banda.asynctokenbucket\\1.0.0\\banda.asynctokenbucket.1.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\banda.asynctokenbucket\\1.0.1\\banda.asynctokenbucket.1.0.1.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\codegeneration.roslyn.attributes\\0.4.88\\codegeneration.roslyn.attributes.0.4.88.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\codegeneration.roslyn.buildtime\\0.4.88\\codegeneration.roslyn.buildtime.0.4.88.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

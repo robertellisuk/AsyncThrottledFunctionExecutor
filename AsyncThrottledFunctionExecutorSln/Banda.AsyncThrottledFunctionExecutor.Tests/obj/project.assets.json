@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Banda.AsyncTokenBucket/1.0.0": {
+      "Banda.AsyncTokenBucket/1.0.1": {
         "type": "package",
         "dependencies": {
           "Nito.AsyncEx": "5.0.0"
@@ -1817,11 +1817,11 @@
           "lib/netstandard1.3/Validation.dll": {}
         }
       },
-      "Banda.AsyncThrottledFunctionExecutor/0.1.0": {
+      "Banda.AsyncThrottledFunctionExecutor/0.1.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Banda.AsyncTokenBucket": "1.0.0",
+          "Banda.AsyncTokenBucket": "1.0.1",
           "ImmutableObjectGraph.Generation": "1.2.19-beta"
         },
         "compile": {
@@ -1834,14 +1834,14 @@
     }
   },
   "libraries": {
-    "Banda.AsyncTokenBucket/1.0.0": {
-      "sha512": "7Pndj6cdJDANvj8n/Zcewrk7Px6nq0H7SqaQkByb7pSGZOgbwa091n474QkVCpWg3Nym4y5xIx5mv6yKav3C6A==",
+    "Banda.AsyncTokenBucket/1.0.1": {
+      "sha512": "KDJz1TC4Zn2B6OfQfb9vF/AnTo4tP5L9Ab287ok0jSoQJPPyF9c9aLs9RQCm4sJGLfAs/GgBzjsAv59PAX6dbA==",
       "type": "package",
-      "path": "banda.asynctokenbucket/1.0.0",
+      "path": "banda.asynctokenbucket/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "banda.asynctokenbucket.1.0.0.nupkg.sha512",
+        "banda.asynctokenbucket.1.0.1.nupkg.sha512",
         "banda.asynctokenbucket.nuspec",
         "lib/netstandard2.0/Banda.AsyncTokenBucket.dll"
       ]
@@ -6095,7 +6095,7 @@
         "validation.nuspec"
       ]
     },
-    "Banda.AsyncThrottledFunctionExecutor/0.1.0": {
+    "Banda.AsyncThrottledFunctionExecutor/0.1.2": {
       "type": "project",
       "path": "../Banda.AsyncThrottledFunctionExecutor/Banda.AsyncThrottledFunctionExecutor.csproj",
       "msbuildProject": "../Banda.AsyncThrottledFunctionExecutor/Banda.AsyncThrottledFunctionExecutor.csproj"
@@ -6103,7 +6103,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Banda.AsyncThrottledFunctionExecutor >= 0.1.0",
+      "Banda.AsyncThrottledFunctionExecutor >= 0.1.2",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -6115,7 +6115,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.2",
     "restore": {
       "projectUniqueName": "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor.Tests\\Banda.AsyncThrottledFunctionExecutor.Tests.csproj",
       "projectName": "Banda.AsyncThrottledFunctionExecutor.Tests",

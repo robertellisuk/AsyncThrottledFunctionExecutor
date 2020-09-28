@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor.Tests\\Banda.AsyncThrottledFunctionExecutor.Tests.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.2",
       "restore": {
         "projectUniqueName": "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor.Tests\\Banda.AsyncThrottledFunctionExecutor.Tests.csproj",
         "projectName": "Banda.AsyncThrottledFunctionExecutor.Tests",
@@ -82,7 +82,7 @@
       }
     },
     "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor\\Banda.AsyncThrottledFunctionExecutor.csproj": {
-      "version": "0.1.0",
+      "version": "0.1.2",
       "restore": {
         "projectUniqueName": "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor\\Banda.AsyncThrottledFunctionExecutor.csproj",
         "projectName": "Banda.AsyncThrottledFunctionExecutor",
@@ -120,7 +120,7 @@
           "dependencies": {
             "Banda.AsyncTokenBucket": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             },
             "ImmutableObjectGraph.Generation": {
               "target": "Package",

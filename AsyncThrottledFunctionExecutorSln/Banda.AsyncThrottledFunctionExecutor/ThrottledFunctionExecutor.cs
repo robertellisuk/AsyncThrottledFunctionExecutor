@@ -33,7 +33,7 @@ namespace Banda.AsyncThrottledFunctionExecutor
         /// value and the same ID.</param>
         /// <param name="request"></param>
         /// <returns></returns>
-        public async Task<TResponse> ExecuteThrottled(CustomerThrottle customerThrottle, TRequest request)
+        public async Task<TResponse> ExecuteThrottledAsync(CustomerThrottle customerThrottle, TRequest request)
         {
             if (customerThrottle == null)
                 throw new ArgumentNullException(nameof(customerThrottle));
@@ -42,7 +42,7 @@ namespace Banda.AsyncThrottledFunctionExecutor
 
                 Func<CustomerThrottle, Task<ITokenBucket>> makeNewContextAndStore = async (context) =>
                 {
-                    object objNewTokenBucket = await TokenBucketFactory.GetTokenBucket(context).ConfigureAwait(false);
+                    object objNewTokenBucket = await TokenBucketFactory.GetTokenBucketAsync(context).ConfigureAwait(false);
 
                     CustomerThrottleContext newThrottleContext = CustomerThrottleContext.Create(
                         customerThrottle: context,
@@ -80,8 +80,7 @@ namespace Banda.AsyncThrottledFunctionExecutor
                 await tokenBucket.WaitConsumeAsync(1, cancellationToken).ConfigureAwait(false);
             }
 
-            if (cancellationToken.IsCancellationRequested)
-                throw new TaskCanceledException();
+            cancellationToken.ThrowIfCancellationRequested();
 
             return await executingFunc(request).ConfigureAwait(false); 
         }

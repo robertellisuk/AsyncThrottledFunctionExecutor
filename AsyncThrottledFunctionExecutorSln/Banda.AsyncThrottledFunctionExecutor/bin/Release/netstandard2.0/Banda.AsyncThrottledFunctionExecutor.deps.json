@@ -7,9 +7,9 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Banda.AsyncThrottledFunctionExecutor/0.1.0": {
+      "Banda.AsyncThrottledFunctionExecutor/0.1.2": {
         "dependencies": {
-          "Banda.AsyncTokenBucket": "1.0.0",
+          "Banda.AsyncTokenBucket": "1.0.1",
           "ImmutableObjectGraph.Generation": "1.2.19-beta",
           "NETStandard.Library": "2.0.3"
         },
@@ -17,14 +17,14 @@
           "Banda.AsyncThrottledFunctionExecutor.dll": {}
         }
       },
-      "Banda.AsyncTokenBucket/1.0.0": {
+      "Banda.AsyncTokenBucket/1.0.1": {
         "dependencies": {
           "Nito.AsyncEx": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Banda.AsyncTokenBucket.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
           }
         }
       },
@@ -185,17 +185,17 @@
     }
   },
   "libraries": {
-    "Banda.AsyncThrottledFunctionExecutor/0.1.0": {
+    "Banda.AsyncThrottledFunctionExecutor/0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Banda.AsyncTokenBucket/1.0.0": {
+    "Banda.AsyncTokenBucket/1.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7Pndj6cdJDANvj8n/Zcewrk7Px6nq0H7SqaQkByb7pSGZOgbwa091n474QkVCpWg3Nym4y5xIx5mv6yKav3C6A==",
-      "path": "banda.asynctokenbucket/1.0.0",
-      "hashPath": "banda.asynctokenbucket.1.0.0.nupkg.sha512"
+      "sha512": "sha512-KDJz1TC4Zn2B6OfQfb9vF/AnTo4tP5L9Ab287ok0jSoQJPPyF9c9aLs9RQCm4sJGLfAs/GgBzjsAv59PAX6dbA==",
+      "path": "banda.asynctokenbucket/1.0.1",
+      "hashPath": "banda.asynctokenbucket.1.0.1.nupkg.sha512"
     },
     "CodeGeneration.Roslyn.Attributes/0.4.88": {
       "type": "package",

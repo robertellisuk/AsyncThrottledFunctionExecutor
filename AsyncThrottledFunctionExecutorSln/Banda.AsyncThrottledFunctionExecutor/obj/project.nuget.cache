@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Vr2bVlZPyD6zsvt74YcWIHEWyustE9M1N3gIa8gswMNQDmt8/OfHfY136lZY4EC8moaD2mSPQ8C6Ts1QCb6Fcg==",
+  "dgSpecHash": "BQ1vc4xURAHATptJHwpQ5ZQiyHMvb9jgn6jAyb/gAgweHcoUCHHNdFUHkxgh6CmGqfW0UWuHY7XKRxMVS+Qckw==",
   "success": true,
   "projectFilePath": "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor\\Banda.AsyncThrottledFunctionExecutor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\roberte\\.nuget\\packages\\banda.asynctokenbucket\\1.0.0\\banda.asynctokenbucket.1.0.0.nupkg.sha512",
+    "C:\\Users\\roberte\\.nuget\\packages\\banda.asynctokenbucket\\1.0.1\\banda.asynctokenbucket.1.0.1.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\codegeneration.roslyn.attributes\\0.4.88\\codegeneration.roslyn.attributes.0.4.88.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\codegeneration.roslyn.buildtime\\0.4.88\\codegeneration.roslyn.buildtime.0.4.88.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\immutableobjectgraph\\1.2.19-beta\\immutableobjectgraph.1.2.19-beta.nupkg.sha512",

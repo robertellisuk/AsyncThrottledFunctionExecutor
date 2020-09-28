@@ -1,5 +1,5 @@
 -r
-C:\Users\roberte\.nuget\packages\banda.asynctokenbucket\1.0.0\lib\netstandard2.0\Banda.AsyncTokenBucket.dll
+C:\Users\roberte\.nuget\packages\banda.asynctokenbucket\1.0.1\lib\netstandard2.0\Banda.AsyncTokenBucket.dll
 -r
 C:\Users\roberte\.nuget\packages\codegeneration.roslyn.attributes\0.4.88\lib\netstandard2.0\CodeGeneration.Roslyn.Attributes.dll
 -r
@@ -265,7 +265,7 @@ C:\Users\roberte\.nuget\packages\immutableobjectgraph.generation\1.2.19-beta\bui
 --out
 obj\Debug\netstandard2.0\
 --projectDir
-C:\Users\roberte\source\repos\AsyncThrottledFunctionExecutor\AsyncThrottledFunctionExecutorSln\Banda.AsyncThrottledFunctionExecutor
+C:\Users\roberte\Source\Repos\AsyncThrottledFunctionExecutor\AsyncThrottledFunctionExecutorSln\Banda.AsyncThrottledFunctionExecutor
 --generatedFilesList
 obj\Debug\netstandard2.0\Banda.AsyncThrottledFunctionExecutor.csproj.dotnet-codegen.GeneratedFileList.txt
 --
@@ -273,3 +273,5 @@ CustomerThrottle.cs
 CustomerThrottleContext.cs
 ThrottledFunctionExecutor.cs
 TokenBucketFactory.cs
+obj\Debug\netstandard2.0\.NETStandard,Version=v2.0.AssemblyAttributes.cs
+obj\Debug\netstandard2.0\Banda.AsyncThrottledFunctionExecutor.AssemblyInfo.cs
