@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BQ1vc4xURAHATptJHwpQ5ZQiyHMvb9jgn6jAyb/gAgweHcoUCHHNdFUHkxgh6CmGqfW0UWuHY7XKRxMVS+Qckw==",
+  "dgSpecHash": "rrxwZo/Y/o8B4QDW7I/zfTSo6uTgMqdvSRGi7OhVU9CocmLoxNphQ9xPLrk0lUeRZeD5Yrvu01s6mytI79SoLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\roberte\\source\\repos\\AsyncThrottledFunctionExecutor\\AsyncThrottledFunctionExecutorSln\\Banda.AsyncThrottledFunctionExecutor\\Banda.AsyncThrottledFunctionExecutor.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\roberte\\.nuget\\packages\\codegeneration.roslyn.buildtime\\0.4.88\\codegeneration.roslyn.buildtime.0.4.88.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\immutableobjectgraph\\1.2.19-beta\\immutableobjectgraph.1.2.19-beta.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\immutableobjectgraph.generation\\1.2.19-beta\\immutableobjectgraph.generation.1.2.19-beta.nupkg.sha512",
-    "C:\\Users\\roberte\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex\\5.0.0\\nito.asyncex.5.0.0.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\nito.asyncex.context\\5.0.0\\nito.asyncex.context.5.0.0.nupkg.sha512",
@@ -20,7 +20,7 @@
     "C:\\Users\\roberte\\.nuget\\packages\\nito.cancellation\\1.0.5\\nito.cancellation.1.0.5.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\nito.collections.deque\\1.0.4\\nito.collections.deque.1.0.4.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\nito.disposables\\2.0.0\\nito.disposables.2.0.0.nupkg.sha512",
-    "C:\\Users\\roberte\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\roberte\\.nuget\\packages\\validation\\2.4.18\\validation.2.4.18.nupkg.sha512"
   ],
   "logs": []

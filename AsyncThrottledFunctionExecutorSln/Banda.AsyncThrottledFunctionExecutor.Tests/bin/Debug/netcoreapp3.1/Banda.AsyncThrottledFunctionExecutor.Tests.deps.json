@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Banda.AsyncThrottledFunctionExecutor.Tests/0.1.1": {
+      "Banda.AsyncThrottledFunctionExecutor.Tests/0.1.2": {
         "dependencies": {
-          "Banda.AsyncThrottledFunctionExecutor": "0.1.1",
+          "Banda.AsyncThrottledFunctionExecutor": "0.1.4",
           "MSTest.TestAdapter": "2.1.0",
           "MSTest.TestFramework": "2.1.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
@@ -1223,7 +1223,7 @@
           }
         }
       },
-      "Banda.AsyncThrottledFunctionExecutor/0.1.1": {
+      "Banda.AsyncThrottledFunctionExecutor/0.1.4": {
         "dependencies": {
           "Banda.AsyncTokenBucket": "1.0.1",
           "ImmutableObjectGraph.Generation": "1.2.19-beta"
@@ -1235,7 +1235,7 @@
     }
   },
   "libraries": {
-    "Banda.AsyncThrottledFunctionExecutor.Tests/0.1.1": {
+    "Banda.AsyncThrottledFunctionExecutor.Tests/0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1961,7 +1961,7 @@
       "path": "validation/2.4.18",
       "hashPath": "validation.2.4.18.nupkg.sha512"
     },
-    "Banda.AsyncThrottledFunctionExecutor/0.1.1": {
+    "Banda.AsyncThrottledFunctionExecutor/0.1.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

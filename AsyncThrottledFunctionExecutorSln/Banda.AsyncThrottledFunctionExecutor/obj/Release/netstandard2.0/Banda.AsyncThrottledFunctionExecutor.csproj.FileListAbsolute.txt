@@ -12,3 +12,4 @@ C:\Users\roberte\Source\Repos\AsyncThrottledFunctionExecutor\AsyncThrottledFunct
 C:\Users\roberte\Source\Repos\AsyncThrottledFunctionExecutor\AsyncThrottledFunctionExecutorSln\Banda.AsyncThrottledFunctionExecutor\obj\Release\netstandard2.0\Banda.AsyncThrottledFunctionExecutor.csproj.CoreCompileInputs.cache
 C:\Users\roberte\Source\Repos\AsyncThrottledFunctionExecutor\AsyncThrottledFunctionExecutorSln\Banda.AsyncThrottledFunctionExecutor\obj\Release\netstandard2.0\Banda.AsyncThrottledFunctionExecutor.dll
 C:\Users\roberte\Source\Repos\AsyncThrottledFunctionExecutor\AsyncThrottledFunctionExecutorSln\Banda.AsyncThrottledFunctionExecutor\obj\Release\netstandard2.0\Banda.AsyncThrottledFunctionExecutor.pdb
+C:\Users\roberte\source\repos\AsyncThrottledFunctionExecutor\AsyncThrottledFunctionExecutorSln\Banda.AsyncThrottledFunctionExecutor\obj\Release\netstandard2.0\Extensions.Yxh+seq4.generated.cs

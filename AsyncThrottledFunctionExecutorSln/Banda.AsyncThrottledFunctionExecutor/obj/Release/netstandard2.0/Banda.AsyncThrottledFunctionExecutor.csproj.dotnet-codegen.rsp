@@ -271,7 +271,6 @@ obj\Release\netstandard2.0\Banda.AsyncThrottledFunctionExecutor.csproj.dotnet-co
 --
 CustomerThrottle.cs
 CustomerThrottleContext.cs
+Extensions.cs
 ThrottledFunctionExecutor.cs
 TokenBucketFactory.cs
-obj\Release\netstandard2.0\.NETStandard,Version=v2.0.AssemblyAttributes.cs
-obj\Release\netstandard2.0\Banda.AsyncThrottledFunctionExecutor.AssemblyInfo.cs

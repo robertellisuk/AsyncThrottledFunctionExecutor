@@ -10,5 +10,6 @@
 using Banda.AsyncTokenBucket;
 using System;
 using System.Collections.Concurrent;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;

@@ -14,7 +14,7 @@ namespace Banda.AsyncThrottledFunctionExecutor.Tests
         public async Task ChangingRateTest1()
 #pragma warning restore CS1998 // Async method lacks 'await' operators and will run synchronously
         {
-            Func<TestRequest, Task<TestResponse>> executingFunc = async (req) =>
+            Func<TestRequest, CancellationToken, Task<TestResponse>> testDelegateFunction = async (req, token) =>
             {
                 return await Task.Run(() => { return new TestResponse(); }).ConfigureAwait(false);
             };
@@ -29,7 +29,7 @@ namespace Banda.AsyncThrottledFunctionExecutor.Tests
             CancellationTokenSource tfeTokenSource = new CancellationTokenSource();
 
             using (ThrottledFunctionExecutor<TestRequest, TestResponse> tfe = new ThrottledFunctionExecutor<TestRequest, TestResponse>
-                (executingFunc, tfeTokenSource.Token))
+                (testDelegateFunction, tfeTokenSource.Token))
             {
                 CancellationTokenSource cts1 = new CancellationTokenSource();
                 CancellationTokenSource cts2 = new CancellationTokenSource();
@@ -86,7 +86,7 @@ namespace Banda.AsyncThrottledFunctionExecutor.Tests
 
                 Task.WaitAll(t2);
 
-               // Total requests = 60 + 3600 = 3660
+                // Total requests = 60 + 3600 = 3660
                 // Total seconds = ~119.5
                 // r/s = 30.63
 
